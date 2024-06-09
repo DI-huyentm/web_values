@@ -1,0 +1,14 @@
+appName: web
+
+port: 5173
+
+namespace: web
+
+configmap:
+  name: myhelmapp-configmap-v1
+  data:
+    CUSTOM_HEADER: 'This app was deployed with helm!'
+
+image:
+  name: baofci/reactjs
+  tag: latest
