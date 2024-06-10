@@ -1,13 +1,13 @@
-appName: superweb
+appName: myweb
 
 port: 5173
 
-namespace: web1
+namespace: web
 
 configmap:
   name: myhelmapp-configmap-v2
   data:
-    CUSTOM_HEADER: 'This app was deployed me!'
+    CUSTOM_HEADER: 'This app was deployed HoangBaBao!'
 
 image:
   name: baofci/reactjs
