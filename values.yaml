@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: baofci/reactjs
-  tag: v2.1.1
+  tag: v2.1.2
