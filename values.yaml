@@ -7,8 +7,8 @@ namespace: vdt-web
 configmap:
   name: myhelmapp-configmap-v2
   data:
-    CUSTOM_HEADER: 'This app was deployed HoangBaBao!'
+    CUSTOM_HEADER: "This app was deployed Huyen!"
 
 image:
-  name: baofci/reactjs
-  tag: v2.1.2
+  name: huyencnh70/web
+  tag: latest
