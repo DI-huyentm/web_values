@@ -10,5 +10,5 @@ configmap:
     CUSTOM_HEADER: "This app was deployed Huyen!"
 
 image:
-  name: huyencnh70/web
+  name: huyencnh70/vdt-web
   tag: latest
