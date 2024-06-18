@@ -11,4 +11,4 @@ configmap:
 
 image:
   name: huyencnh70/vdt-web
-  tag: v1.2.1
+  tag: v1.4.0
